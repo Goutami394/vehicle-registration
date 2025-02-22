@@ -30,23 +30,33 @@ Frameworks/Libraries: SQLAlchemy, Streamlit
 📂 Project Structure
 
 /vehicle-registration-system
+
 │── vehicle_res.py # main code
+
 │── README.md     # Project documentation
 
 🚀 Installation & Setup
 
 1.Clone the repository
+
    git clone https://github.com/your-username/vehicle-registration.git
+   
    cd vehicle-registration
 
 2.Create a virtual environment and install dependencies
+   
    python -m venv venv
+   
    source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+   
    pip install -r requirements.txt
 
 3.Create a New Database
+   
    *Open MySQL Workbench and connect to your MySQL server.
+   
    *Click on the SQL Editor (Query tab).
+   
    *Run the following SQL command to create the database:
 
       CREATE DATABASE vehicle_registration;
