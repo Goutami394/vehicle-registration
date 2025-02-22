@@ -1,5 +1,6 @@
 
 🚗 Vehicle Registration System
+
 📌 Project Overview
 This is a mini-project for a Vehicle Registration System using MySQL WorkBench, streamlit. It allows users to register vehicles, manage ownership, perform inspections, maintain address, handle registration fees.
 
@@ -43,6 +44,7 @@ Frameworks/Libraries: SQLAlchemy, Streamlit
 4.Run the application
 
    streamlit run vehicle_res.py
+   
    Open http://127.0.0.1:5000/ in your browser.
 
 🛠 Future Enhancements
